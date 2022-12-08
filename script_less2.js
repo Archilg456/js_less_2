@@ -27,9 +27,9 @@ for (let x of array1){
 let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 for (let x of array2){
-    if (x==5)
+    if (x == 5)
     console.log("არის"); 
-   
+   break;
 }
 
 //  5.
@@ -48,6 +48,7 @@ console.log(sum);
 let array4 = [1, 2, 3, 7, 6, 9];
 
 let sum = 0 
+
 for (let x = 0; x < array4.length; x+=1){
     sum += array4[x]
 }
@@ -73,7 +74,7 @@ let array5 = [1, 2, 3, 7, 6, 9];
 
 for (let x of  array5){
     if ( x == 7){
-        continue
+        continue;
     }
     console.log(x);
 }
